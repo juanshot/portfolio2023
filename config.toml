@@ -1,25 +1,35 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Juan M. Garcia'
 theme = "freelancer"
 [params]
-  tagLine = "Graphic Artist - Web Designer - Illustrator"
+  tagLine = "Software passionate - Entrepreneur - Avocado 🥑"
   homePosts = 3
   homeProjects = 3
 
-  aboutLeft = "Freelancerx is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization."
-  aboutRight = "You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!"
+  aboutLeft = "Software engineer with more than 11 years experience building web apps. Especialist in JS and all the ecosystem arount it (react, vue, angular, node, nuxt, next...)"
+  aboutRight = "Lead experience and specialist in managing teams"
 
 [params.location]
-  lineOne = "2215 John Daniel Drive"
-  lineTwo = "Clark, MO 65243"
+  lineOne = "Christinenstraße 2"
+  lineTwo = "Hamburg Germany 21031"
+
+[[params.social]]
+  url = ""
+  icon_pack = ""
+  icon = "github"
+
+[[params.social]]
+  url = ""
+  icon_pack = ""
+  icon = "github"
 
 [params.sbform]
       token = ""
 
 [params.homebutton]
-  text = "Free Donwload"
-  link = "https://startbootstrap.com/theme/freelancer/" 
+  text = "Download CV"
+  link = "void"
   icon = "fa-download"
 
 [related]
