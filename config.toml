@@ -12,17 +12,17 @@ theme = "freelancer"
 
 [params.location]
   lineOne = "Christinenstraße 2"
-  lineTwo = "Hamburg Germany 21031"
+  lineTwo = "21031 Hamburg Germany"
 
 [[params.social]]
-  url = ""
-  icon_pack = ""
+  url = "https://github.com/juanshot/"
+  icon_pack = "fa-brands"
   icon = "github"
 
 [[params.social]]
-  url = ""
-  icon_pack = ""
-  icon = "github"
+  url = "https://www.linkedin.com/in/juan-garcia-19b89280/"
+  icon_pack = "fa-brands"
+  icon = "linkedin"
 
 [params.sbform]
       token = ""
