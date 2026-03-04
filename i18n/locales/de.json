@@ -1,0 +1,181 @@
+{
+  "hero": {
+    "title": "Bauen // Leiten // Lehren",
+    "intro": "Hey! Ich bin Juan, ein Software Engineer, der es liebt, Apps zu bauen. Ich arbeite seit 2010 als Softwareentwickler und meine Lieblingstechnologien sind: TS, JS, Vue, React, Angular, Node, Express.",
+    "cta": "Termin vereinbaren"
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Ich bin ein engagierter Entwickler mit über 15 Jahren Erfahrung in der Erstellung dynamischer und reaktionsfähiger Webanwendungen. Meine Expertise liegt in JavaScript, Vue.js, React, Angular und Node.js."
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "items": [
+      {
+        "role": "Lead Developer",
+        "company": "Kreuzfahrtberater, Deutschland",
+        "period": "Apr 2024 - HEUTE",
+        "skills": [
+          "Nuxt.js",
+          "TypeScript",
+          "Sass",
+          "Playwright",
+          "Jest",
+          "PHP",
+          "MySQL",
+          "Google Cloud Platform (GCP)"
+        ]
+      },
+      {
+        "role": "Lead Dev",
+        "company": "Cheers.io, Deutschland",
+        "period": "Mär 2021 - 2024",
+        "skills": [
+          "JS",
+          "Hybrid CMS",
+          "Google Cloud Platform (GCP)",
+          "Nuxt.js",
+          "Next.js",
+          "PHP",
+          "Node",
+          "Go (Programming Language)",
+          "REST APIs",
+          "TypeScript",
+          "GraphQL"
+        ]
+      },
+      {
+        "role": "Senior Developer (Freelance)",
+        "company": "Mercedes-Benz.io, Deutschland",
+        "period": "Mär 2021 - Jan 2022",
+        "skills": [
+          "Adobe Experience Manager (AEM)",
+          "Vue",
+          "StencilJS",
+          "Microfrontends",
+          "Jenkins",
+          "REST APIs",
+          "Redux.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "ABOUT YOU, Deutschland",
+        "period": "Feb 2020 - Mär 2021",
+        "skills": [
+          "JS",
+          "TS",
+          "Vue.js",
+          "React",
+          "PHP",
+          "Laravel",
+          "REST APIs",
+          "Amazon Web Services (AWS)",
+          "Docker"
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Gold Media Tech, USA",
+        "period": "Mai 2018 - Feb 2020",
+        "skills": [
+          "JS",
+          "TypeScript",
+          "React",
+          "Vue.js",
+          "LoopBack.io",
+          "Apollo GraphQL",
+          "Nuxt.js",
+          "REST APIs",
+          "Node.js",
+          "Amazon Web Services (AWS)"
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Propraxis, Ecuador",
+        "period": "Jan 2018 - Feb 2020",
+        "skills": [
+          "JS",
+          "TS",
+          "Vue",
+          "Apollo GraphQL",
+          "Laravel",
+          "Angular",
+          "REST APIs",
+          "Node.js",
+          "Express.js"
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Aktiun, Ecuador",
+        "period": "Jan 2017 - Apr 2017",
+        "skills": [
+          "Angular",
+          "Ionic Framework",
+          "Angular",
+          "REST APIs",
+          "Amazon Web Services (AWS)"
+        ]
+      },
+      {
+        "role": "Senior Software Engineer",
+        "company": "Cintanegra, Ecuador",
+        "period": "Jan 2015 - Dez 2016 / Apr 2017 - Jan 2018",
+        "skills": [
+          "JS",
+          "TS",
+          "Ionic Framework",
+          "PHP",
+          "Laravel",
+          "Angular",
+          "REST APIs",
+          "React.js",
+          "Node.js"
+        ]
+      },
+      {
+        "role": "IT Specialist",
+        "company": "SAREN, Venezuela",
+        "period": "Jul 2010 - Sep 2015",
+        "skills": [
+          "PHP",
+          "JS",
+          "CakePHP",
+          "MySQL",
+          "jQuery",
+          "Ajax",
+          "Laravel",
+          "REST APIs"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Fähigkeiten",
+    "description": "Meine Expertise in JavaScript, TypeScript, Vue.js und Nuxt.js wird von Kunden auf der ganzen Welt sehr geschätzt.",
+    "list": [
+      "JS/TS",
+      "Vue, React, Angular",
+      "Node, PHP",
+      "Ionic, React Native, Capacitor",
+      "MySQL, Postgres, Mongo",
+      "Nuxt, Next.js, NestJS, Loopback, Express, Laravel",
+      "GraphQL, REST",
+      "Docker, Kubernetes",
+      "GCP, AWS, Jenkins"
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Zögern Sie nicht, mich zu kontaktieren, wenn Sie an einem Projekt zusammenarbeiten möchten oder sich einfach nur vernetzen wollen.",
+    "email": "garcia.solutionsgmail.com",
+    "phone": "+49 15258954663",
+    "address": "Am Birkenhof 24E, Nordestedt, Deutschland 28850"
+  },
+  "footer": {
+    "copyright": "© 2026 Juan Miguel Garcia. Alle Rechte vorbehalten."
+  }
+}
