@@ -1,179 +1,199 @@
 {
   "hero": {
-    "title": "Build // Lead // Teach",
-    "intro": "Hey! I'm Juan, a Software Engineer who loves building apps. I've worked as a software developer since 2010 and my favourite technologies are: TS, JS, Vue, React, Angular, Node, Express.",
+    "words": ["Build", "Lead", "Teach"],
+    "role": "Frontend-Heavy Fullstack Developer",
+    "intro": "Hey! I'm Juan, a frontend-heavy fullstack developer with over 15 years of commercial experience. I work mainly in JavaScript/Typescript and i'm framework agnostic.",
+    "expertise": "I'm equally comfortable taking a feature through the backend, the API layer, infrastructure and deployment.",
     "cta": "Schedule Meeting"
   },
   "about": {
     "title": "About Me",
-    "description": "I am a dedicated developer with over 15 years of experience in building dynamic and responsive web applications. My expertise lies in JavaScript, Vue.js, React, Angular, and Node.js."
+    "paragraphs": [
+      "Frontend-heavy fullstack developer with over 15 years of commercial experience. I work mainly in JavaScript/Typescript und i'm framework agnostic, and I am equally comfortable taking a feature through the backend, the API layer and deployment.",
+      "The project I am proudest of was a visually engaging, scalable and fast real-time dashboard for a polling system. Its data visualisation work sparked a lasting interest in chart-building and data representation, and became a turning point in my career.",
+      "I have worked in several countries, including Germany, the USA, Australia, Ecuador and Venezuela. Outside of work I am interested in languages and sports: I practise German, enjoy connecting with people from different cultures, and swim."
+    ]
   },
   "experience": {
     "title": "Experience",
     "items": [
       {
         "role": "Lead Developer",
-        "company": "Kreuzfahrtberater, Germany",
+        "company": "Kreuzfahrtberater GmbH, Hamburg",
         "period": "Apr 2024 - PRESENT",
+        "summary": "Lead development across the frontend and backend of the company's booking and content platform, including end-to-end test coverage and cloud infrastructure.",
         "skills": [
-          "Nuxt.js",
           "TypeScript",
-          "Sass",
-          "Playwright",
-          "Jest",
+          "Nuxt.js",
+          "Vue.js",
+          "Node.js",
           "PHP",
-          "MySQL",
+          "Symfony",
+          "Playwright",
           "Google Cloud Platform (GCP)"
         ]
       },
       {
-        "role": "Lead Dev",
-        "company": "Cheers.io, Germany",
-        "period": "Mar 2021 - 2024",
+        "role": "Lead Developer",
+        "company": "Cheers Digital Solutions GmbH, Germany",
+        "period": "Mar 2021 - PRESENT",
+        "summary": "Guide the development team from technical direction through to delivery, designing web applications and the REST and GraphQL layers behind them.",
         "skills": [
-          "JS",
-          "Hybrid CMS",
-          "Google Cloud Platform (GCP)",
           "Nuxt.js",
-          "Next.js",
-          "PHP",
-          "Node",
-          "Go (Programming Language)",
-          "REST APIs",
+          "Vue.js",
           "TypeScript",
-          "GraphQL"
+          "Go",
+          "PHP",
+          "GraphQL",
+          "REST APIs",
+          "Hybrid CMS",
+          "Google Cloud Platform (GCP)"
         ]
       },
       {
-        "role": "Senior Developer (Freelance)",
+        "role": "Senior Frontend Developer",
         "company": "Mercedes-Benz.io, Germany",
         "period": "Mar 2021 - Jan 2022",
+        "summary": "Client engagement delivered through Cheers. Built web components and managed frontend state in a large, multi-team Adobe Experience Manager codebase.",
         "skills": [
           "Adobe Experience Manager (AEM)",
-          "Vue",
-          "StencilJS",
-          "Microfrontends",
-          "Jenkins",
-          "REST APIs",
+          "Vue.js",
+          "Vuex",
+          "Stencil.js",
           "Redux.js",
-          "TypeScript"
+          "TypeScript",
+          "REST APIs",
+          "Jenkins"
         ]
       },
       {
-        "role": "Senior Software Engineer",
+        "role": "Senior Frontend Developer",
         "company": "ABOUT YOU, Germany",
         "period": "Feb 2020 - Mar 2021",
+        "summary": "Built and maintained frontend applications for a high-traffic e-commerce platform running on a microservices architecture.",
         "skills": [
-          "JS",
-          "TS",
           "Vue.js",
-          "React",
           "PHP",
           "Laravel",
+          "MySQL",
           "REST APIs",
-          "Amazon Web Services (AWS)",
-          "Docker"
+          "Microservices",
+          "Docker",
+          "Amazon Web Services (AWS)"
         ]
       },
       {
         "role": "Senior Software Engineer",
         "company": "Gold Media Tech, United States",
-        "period": "May 2018 - Feb 2020",
+        "period": "May 2019 - Feb 2020",
+        "summary": "Designed frontend solutions and scalable backend services, including Apollo GraphQL APIs for flexible data retrieval.",
         "skills": [
-          "JS",
-          "TypeScript",
-          "React",
           "Vue.js",
+          "Nuxt.js",
+          "TypeScript",
+          "Node.js",
           "LoopBack.io",
           "Apollo GraphQL",
-          "Nuxt.js",
           "REST APIs",
-          "Node.js",
           "Amazon Web Services (AWS)"
         ]
       },
       {
-        "role": "Senior Software Engineer",
+        "role": "Fullstack Developer",
         "company": "Propraxis, Ecuador",
         "period": "Jan 2018 - Feb 2020",
+        "summary": "Delivered end-to-end web applications for a range of client companies, covering UI/UX design, frontend and backend.",
         "skills": [
-          "JS",
-          "TS",
-          "Vue",
-          "Apollo GraphQL",
-          "Laravel",
+          "Vue.js",
           "Angular",
-          "REST APIs",
+          "Laravel",
+          "PHP",
           "Node.js",
-          "Express.js"
+          "Express.js",
+          "Apollo GraphQL",
+          "REST APIs"
         ]
       },
       {
-        "role": "Senior Software Engineer",
+        "role": "Senior Frontend Developer",
         "company": "Aktiun, Ecuador",
         "period": "Jan 2017 - Apr 2017",
+        "summary": "Built interactive, responsive mobile applications for several American projects, working to Scrum.",
         "skills": [
+          "JavaScript",
+          "TypeScript",
           "Angular",
           "Ionic Framework",
-          "Angular",
-          "REST APIs",
           "Amazon Web Services (AWS)"
         ]
       },
       {
-        "role": "Senior Software Engineer",
+        "role": "Full-Stack Developer",
         "company": "Cintanegra, Ecuador",
-        "period": "Jan 2015 - Dec 2016 / Apr 2017 - Jan 2018",
+        "period": "Oct 2015 - Feb 2018",
+        "summary": "Developed web applications across several stacks, integrating relational and document databases for efficient data handling.",
         "skills": [
-          "JS",
-          "TS",
+          "Angular",
+          "React.js",
           "Ionic Framework",
+          "Node.js",
+          "Express.js",
           "PHP",
           "Laravel",
-          "Angular",
-          "REST APIs",
-          "React.js",
-          "Node.js"
+          "MongoDB",
+          "MySQL",
+          "PostgreSQL",
+          "Heroku",
+          "Amazon Web Services (AWS)"
         ]
       },
       {
         "role": "IT Specialist",
         "company": "SAREN, Venezuela",
-        "period": "Jul 2010 - Sep 2015",
-        "skills": [
-          "PHP",
-          "JS",
-          "CakePHP",
-          "MySQL",
-          "jQuery",
-          "Ajax",
-          "Laravel",
-          "REST APIs"
-        ]
+        "period": "Aug 2010 - Sep 2015",
+        "summary": "Maintained the organisation's IT infrastructure and built internal web tooling.",
+        "skills": ["PHP", "CakePHP", "JavaScript", "Ajax", "MySQL", "REST APIs"]
       }
     ]
   },
   "skills": {
     "title": "Skills",
-    "description": "My expertise in JavaScript, TypeScript, Vue.js, and Nuxt.js is highly valued by clients all around the world.",
-    "list": [
-      "JS/TS",
-      "Vue, React, Angular",
-      "Node, PHP",
-      "Ionic, React Native, Capacitor",
-      "MySQL, Postgres, Mongo",
-      "Nuxt, Next.js, NestJS, Loopback, Express, Laravel",
-      "GraphQL, REST",
-      "Docker, Kubernetes",
-      "GCP, AWS, Jenkins"
-    ]
+    "description": "Over 15 years across the stack — frontend-heavy, with Vue.js as my tool of choice and a track record of taking features through the API layer and deployment.",
+    "groups": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "ui": "UI & Tooling",
+      "mobile": "Mobile & Desktop",
+      "backend": "Backend & APIs",
+      "data": "Databases",
+      "devops": "Cloud & DevOps",
+      "testing": "Testing & QA",
+      "workflow": "Ways of Working"
+    }
+  },
+  "credentials": {
+    "title": "Education & Certificates",
+    "educationTitle": "Education",
+    "education": {
+      "degree": "Computer Engineer · Bachelor of Science",
+      "school": "Universidad Nacional Experimental Rómulo Gallegos",
+      "period": "2004 - 2010"
+    },
+    "certificatesTitle": "Certificates",
+    "certificates": [
+      "Programming with Google Go — Coursera",
+      "Front End Web Developer Nanodegree — Udacity",
+      "React Nanodegree — Udacity"
+    ],
+    "languagesTitle": "Languages",
+    "languages": ["Spanish (native)", "English", "German"]
   },
   "contact": {
     "title": "Contact",
     "description": "Feel free to reach out if you'd like to collaborate on a project, or just want to connect.",
-    "email": "garcia.solutionsgmail.com",
+    "email": "garcia.solutions{'@'}gmail.com",
     "phone": "+49 15258954663",
-    "address": "Am Birkenhof 24E, Nordestedt, Germany 28850"
+    "address": "Hamburg, Germany"
   },
   "footer": {
     "copyright": "© 2026 Juan Miguel Garcia. All rights reserved."

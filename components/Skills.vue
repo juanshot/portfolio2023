@@ -1,32 +1,49 @@
-<script setup lang="ts">
-const { tm, rt } = useI18n();
-</script>
-
 <template>
-  <div id="skills" class="py-24 sm:py-32 bg-[#09090b]">
+  <section id="skills" class="py-24 bg-dark-bg">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300 inline-block">
-          {{ $t('skills.title') }}
+        <h2
+          class="text-3xl font-bold tracking-tight sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300 inline-block"
+        >
+          {{ $t("skills.title") }}
         </h2>
         <p class="mt-6 text-lg leading-8 text-zinc-400">
-          {{ $t('skills.description') }}
+          {{ $t("skills.description") }}
         </p>
       </div>
-      <div class="mx-auto mt-16 max-w-2xl lg:mx-0 lg:max-w-none">
-        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-          <div v-for="(skill, index) in tm('skills.list')" :key="index" class="flex flex-col group hover:-translate-y-2 transition-transform duration-300">
-            <dt class="text-base font-semibold leading-7 text-white">
-              <div class="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500 group-hover:bg-cyan-500 transition-colors">
-                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 18" />
-                </svg>
-              </div>
-              <span class="group-hover:text-cyan-300 transition-colors">{{ rt(skill) }}</span>
-            </dt>
-          </div>
-        </dl>
+
+      <div class="mt-16 grid items-start gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div
+          v-for="group in skillGroups"
+          :key="group.key"
+          class="rounded-xl border border-dark-border bg-dark-surface/40 p-6 hover:border-zinc-700 transition-colors"
+        >
+          <h3
+            class="text-sm font-semibold uppercase tracking-wider text-zinc-500"
+          >
+            {{ $t(`skills.groups.${group.key}`) }}
+          </h3>
+          <ul class="mt-5 flex flex-wrap gap-x-6 gap-y-5">
+            <li
+              v-for="tech in group.items"
+              :key="tech.name"
+              class="group flex w-16 flex-col items-center gap-2 text-center"
+              :title="tech.name"
+            >
+              <Icon
+                :name="tech.icon"
+                class="h-8 w-8 text-zinc-500 group-hover:text-white transition-colors duration-300"
+                aria-hidden="true"
+              />
+              <span
+                class="text-[11px] leading-tight text-zinc-600 group-hover:text-zinc-300 transition-colors duration-300"
+              >
+                {{ tech.name }}
+              </span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
